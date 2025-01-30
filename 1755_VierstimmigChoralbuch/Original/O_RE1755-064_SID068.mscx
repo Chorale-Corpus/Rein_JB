@@ -16,7 +16,7 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composer">Rein, Johann Balthasar</metaTag>
+    <metaTag name="composer">Johann Balthasar Rein</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2021-04-08</metaTag>
     <metaTag name="lyricist"></metaTag>
@@ -155,14 +155,18 @@
           </Text>
         <Text>
           <style>Composer</style>
-          <text>Rein, Johann Balthasar</text>
+          <text>Johann Balthasar Rein</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>RE1755-064</text>
           </Text>
         </VBox>
       <Measure>
         <voice>
           <Clef>
-            <concertClefType>C1_F20C</concertClefType>
-            <transposingClefType>C1_F20C</transposingClefType>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
             </Clef>
           <KeySig>
             <accidental>2</accidental>
