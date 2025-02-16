@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Du Gesit des Herrn, der du von Gott</title>
+            <respStmt>
+               <persName role="composer">Johann Balthasar Rein</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2025-02-16T01:36:53" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead>
+                     <rend halign="center" valign="top">
+                        <rend type="title" fontsize="x-large">Du Gesit des Herrn, der du von Gott</rend>
+                        <lb />
+                        <rend type="subtitle" fontsize="large">RE1755-090</rend>
+                     </rend>
+                     <rend halign="right" valign="bottom">
+                        <rend type="composer">Johann Balthasar Rein</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp>
+                     <staffGrp bar.thru="true" symbol="brace">
+                        <label>Piano</label>
+                        <labelAbbr>Pno.</labelAbbr>
+                        <staffDef n="1" lines="5" keysig="1f" meter.sym="common">
+                           <clef shape="G" line="2" />
+                        </staffDef>
+                        <staffDef n="2" lines="5" keysig="1f" meter.sym="common">
+                           <clef shape="F" line="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="mld765c" metcon="false" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n2eqr55" dur="4" pname="a" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1s2" n="2">
+                        <layer xml:id="m1s2l1" n="1">
+                           <note xml:id="nzer0qx" dur="4" pname="d" oct="3" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m16i9ydc" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="n1n3i626" dur="4" pname="a" oct="4" />
+                           <beam>
+                              <note xml:id="n1kbfgh3" dur="8" pname="a" oct="4" />
+                              <note xml:id="n1ruam7o" dur="8" pname="g" oct="4" />
+                           </beam>
+                           <note xml:id="nlem5dv" dur="4" pname="f" oct="4" />
+                           <note xml:id="nm646ao" dur="4" pname="a" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m2s2" n="2">
+                        <layer xml:id="m2s2l1" n="1">
+                           <note xml:id="n11k7q1q" dur="4" pname="f" oct="3" />
+                           <note xml:id="n13n230c" dur="4" pname="c" oct="3">
+                              <accid xml:id="a1lli4nf" accid="s" />
+                           </note>
+                           <note xml:id="nr15tft" dur="4" pname="d" oct="3" />
+                           <note xml:id="n1qf36qc" dur="4" pname="f" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n11k7q1q">
+                        <fb xml:id="f145xd42">
+                           <f xml:id="fpqtcr9">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n13n230c">
+                        <fb xml:id="f2imcrl">
+                           <f xml:id="fhciug9">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1qf36qc">
+                        <fb xml:id="fu0qrvc">
+                           <f xml:id="f1h99c30">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m2j1zug" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="npq8mnb" dur="4" pname="g" oct="4" />
+                           <note xml:id="naerj98" dur="4" pname="f" oct="4" />
+                           <note xml:id="n1fwba59" dur="4" pname="e" oct="4" />
+                           <note xml:id="n1t6m9dx" dur="4" pname="e" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m3s2" n="2">
+                        <layer xml:id="m3s2l1" n="1">
+                           <note xml:id="nof8mci" dur="4" pname="e" oct="3" />
+                           <note xml:id="nn9mkas" dur="4" pname="d" oct="3" />
+                           <note xml:id="n1jl715k" dur="4" pname="g" oct="2" />
+                           <note xml:id="n1rbgo2a" dur="4" pname="a" oct="2" />
+                        </layer>
+                     </staff>
+                     <harm startid="#nof8mci">
+                        <fb xml:id="f1hnl9o0">
+                           <f xml:id="f14moctr">6\</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1jl715k">
+                        <fb xml:id="ffjqcdz">
+                           <f xml:id="fpgrkey">6</f>
+                           <f xml:id="f18abb9i">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#n1rbgo2a">
+                        <fb xml:id="fmvkg4r">
+                           <f xml:id="f2zcn1s">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m13xuc9x" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="n1kpvo2o" dur="2" pname="d" oct="4" />
+                           <rest xml:id="r17up1ey" dur="4" />
+                           <note xml:id="nzajt9y" dur="4" pname="f" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m4s2" n="2">
+                        <layer xml:id="m4s2l1" n="1">
+                           <note xml:id="n1jchdzv" dur="2" pname="d" oct="3" />
+                           <rest xml:id="ri6wid1" dur="4" />
+                           <note xml:id="nhug2rw" dur="4" pname="d" oct="3" />
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f1w94yzr" startid="#n1kpvo2o" />
+                     <fermata xml:id="f1ux6fjs" startid="#n1jchdzv" />
+                  </measure>
+                  <measure xml:id="m1k1m50j" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <note xml:id="nhqt6dv" dur="4" pname="g" oct="4" />
+                           <note xml:id="n2mv4z" dur="4" pname="b" oct="4">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="nrmec02" dur="4" pname="a" oct="4" />
+                           <note xml:id="n5vp1mp" dur="4" pname="c" oct="5" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m5s2" n="2">
+                        <layer xml:id="m5s2l1" n="1">
+                           <note xml:id="n13a1cly" dur="4" pname="c" oct="3">
+                              <accid xml:id="apr56l" accid="n" />
+                           </note>
+                           <note xml:id="n1ot58af" dur="4" pname="e" oct="3" />
+                           <note xml:id="nvdc0om" dur="4" pname="f" oct="3" />
+                           <note xml:id="nj56njq" dur="4" pname="a" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n1ot58af">
+                        <fb xml:id="fh7p6a4">
+                           <f xml:id="f1vgzxeg">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nj56njq">
+                        <fb xml:id="f18j7jk2">
+                           <f xml:id="f1ps9xzq">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m49r36w" n="6">
+                     <staff xml:id="m6s1" n="1">
+                        <layer xml:id="m6s1l1" n="1">
+                           <note xml:id="npd3l7m" dur="4" pname="b" oct="4">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="n18l2drg" dur="4" pname="a" oct="4" />
+                           <note xml:id="nm5w87v" dur="4" pname="g" oct="4" />
+                           <note xml:id="nyjfv0h" dur="4" pname="g" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m6s2" n="2">
+                        <layer xml:id="m6s2l1" n="1">
+                           <note xml:id="n9839mu" dur="4" pname="g" oct="3" />
+                           <note xml:id="n4phwj5" dur="4" pname="f" oct="3" />
+                           <note xml:id="nwhaygb" dur="4" pname="b" oct="2">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="n1ycsjwb" dur="4" pname="c" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n9839mu">
+                        <fb xml:id="fe8rs3p">
+                           <f xml:id="f1jbhuiw">6</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nwhaygb">
+                        <fb xml:id="fszvdou">
+                           <f xml:id="f13bplj">6</f>
+                           <f xml:id="f12xwkfr">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m18uoqq6" n="7">
+                     <staff xml:id="m7s1" n="1">
+                        <layer xml:id="m7s1l1" n="1">
+                           <note xml:id="n13sloi" dur="2" pname="f" oct="4" />
+                           <rest xml:id="r1myzi6n" dur="4" />
+                           <note xml:id="n1rzc12i" dur="4" pname="g" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m7s2" n="2">
+                        <layer xml:id="m7s2l1" n="1">
+                           <note xml:id="nm7q2pm" dur="2" pname="f" oct="2" />
+                           <rest xml:id="r89n4z0" dur="4" />
+                           <note xml:id="nbk3opj" dur="4" pname="c" oct="3" />
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f1mebuoj" startid="#n13sloi" />
+                     <fermata xml:id="f1tae54y" startid="#nm7q2pm" />
+                  </measure>
+                  <measure xml:id="mablw81" n="8">
+                     <staff xml:id="m8s1" n="1">
+                        <layer xml:id="m8s1l1" n="1">
+                           <note xml:id="n1uayb9f" dur="4" pname="g" oct="4" />
+                           <note xml:id="ns3yfgt" dur="4" pname="g" oct="4" />
+                           <note xml:id="nrrcbuh" dur="4" pname="a" oct="4" />
+                           <note xml:id="n1ui30eo" dur="4" pname="c" oct="5" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m8s2" n="2">
+                        <layer xml:id="m8s2l1" n="1">
+                           <note xml:id="nm8p5kz" dur="4" pname="b" oct="2">
+                              <accid xml:id="a1kcr3m2" accid="n" />
+                           </note>
+                           <note xml:id="nmk6t3d" dur="4" pname="c" oct="3" />
+                           <note xml:id="n82psr1" dur="4" pname="f" oct="2" />
+                           <note xml:id="ne92blq" dur="4" pname="f" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#nm8p5kz">
+                        <fb xml:id="f16oklij">
+                           <f xml:id="fzj9qei">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <sb />
+                  <measure xml:id="m1fkgif9" n="9">
+                     <staff xml:id="m9s1" n="1">
+                        <layer xml:id="m9s1l1" n="1">
+                           <note xml:id="n72roo0" dur="4" pname="d" oct="5" />
+                           <note xml:id="nt6icym" dur="4" pname="c" oct="5" />
+                           <note xml:id="n1snqmno" dur="4" pname="b" oct="4">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="n1br6vj0" dur="4" pname="a" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m9s2" n="2">
+                        <layer xml:id="m9s2l1" n="1">
+                           <note xml:id="n1ux6d4i" dur="4" pname="b" oct="2">
+                              <accid xml:id="a1n08jml" accid="f" />
+                           </note>
+                           <note xml:id="n1qv68tt" dur="4" pname="a" oct="2" />
+                           <note xml:id="nhy6fz" dur="4" pname="b" oct="2">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="n21bt1n" dur="4" pname="f" oct="3" />
+                        </layer>
+                     </staff>
+                     <harm startid="#n1qv68tt">
+                        <fb xml:id="fx6ppe9">
+                           <f xml:id="f19rxc52">5b</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1wlx2b4" n="10">
+                     <staff xml:id="m10s1" n="1">
+                        <layer xml:id="m10s1l1" n="1">
+                           <note xml:id="n1t26iti" dur="4" pname="g" oct="4" />
+                           <note xml:id="n17uot7x" dur="4" pname="g" oct="4" />
+                           <rest xml:id="r1sbfv9k" dur="4" />
+                           <beam>
+                              <note xml:id="n1rli5kh" dur="8" pname="a" oct="4" />
+                              <note xml:id="n1x6485l" dur="8" pname="g" oct="4" />
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m10s2" n="2">
+                        <layer xml:id="m10s2l1" n="1">
+                           <note xml:id="n1fcd424" dur="4" pname="c" oct="3" />
+                           <note xml:id="nvywmqz" dur="4" pname="c" oct="3" />
+                           <rest xml:id="r1mvmjz1" dur="4" />
+                           <note xml:id="n1imlw3a" dur="4" pname="c" oct="3">
+                              <accid xml:id="a1pqwhjw" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f1ej5u0e" startid="#n17uot7x" />
+                     <harm startid="#n1fcd424">
+                        <fb xml:id="fk7fn07">
+                           <f xml:id="f5k1we1">4</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#nvywmqz">
+                        <fb xml:id="f1fg4mds">
+                           <f xml:id="f133c4jb">h</f>
+                        </fb>
+                     </harm>
+                     <fermata xml:id="f11xt9zj" startid="#nvywmqz" />
+                     <harm startid="#n1imlw3a">
+                        <fb xml:id="fn5rkj0">
+                           <f xml:id="f1nnvl5g">6</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m3suq6v" n="11">
+                     <staff xml:id="m11s1" n="1">
+                        <layer xml:id="m11s1l1" n="1">
+                           <note xml:id="n130jzqo" dur="4" pname="f" oct="4" />
+                           <note xml:id="n130fx4v" dur="4" pname="e" oct="4" />
+                           <note xml:id="nseogib" dur="4" pname="d" oct="4" />
+                           <note xml:id="noxkx6y" dur="4" pname="a" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m11s2" n="2">
+                        <layer xml:id="m11s2l1" n="1">
+                           <note xml:id="n13zq5la" dur="4" pname="d" oct="3" />
+                           <note xml:id="n13mc1bc" dur="4" pname="a" oct="2" />
+                           <note xml:id="nqx6m8f" dur="4" pname="b" oct="2">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="ng2bk16" dur="4" pname="f" oct="2">
+                              <accid xml:id="a1edi3to" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <harm startid="#n13mc1bc">
+                        <fb xml:id="fddww3y">
+                           <f xml:id="fjaxjok">h</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#ng2bk16">
+                        <fb xml:id="fp2ihoa">
+                           <f xml:id="f1u68lcf">5</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1ldwbgc" n="12">
+                     <staff xml:id="m12s1" n="1">
+                        <layer xml:id="m12s1l1" n="1">
+                           <note xml:id="n1hgx6vk" dur="4" pname="g" oct="4" />
+                           <note xml:id="n7u01xl" dur="4" pname="f" oct="4" />
+                           <note xml:id="nm92x9d" dur="4" pname="e" oct="4" />
+                           <note xml:id="na5y99h" dur="4" pname="e" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m12s2" n="2">
+                        <layer xml:id="m12s2l1" n="1">
+                           <note xml:id="ndvx7vz" dur="4" pname="g" oct="2" />
+                           <note xml:id="nzh5a8c" dur="4" pname="d" oct="3" />
+                           <note xml:id="ntkpb9p" dur="4" pname="g" oct="2" />
+                           <note xml:id="ni4fk1o" dur="4" pname="a" oct="2" />
+                        </layer>
+                     </staff>
+                     <harm startid="#nzh5a8c">
+                        <fb xml:id="f1ni3udl">
+                           <f xml:id="f1mcapih">h</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#ntkpb9p">
+                        <fb xml:id="f645fnm">
+                           <f xml:id="f1glyyqm">6</f>
+                           <f xml:id="fcxocfa">5</f>
+                        </fb>
+                     </harm>
+                     <harm startid="#ni4fk1o">
+                        <fb xml:id="flvkj8m">
+                           <f xml:id="f10mqjka">#</f>
+                        </fb>
+                     </harm>
+                  </measure>
+                  <measure xml:id="m1u2bg2x" right="end" n="13">
+                     <staff xml:id="m13s1" n="1">
+                        <layer xml:id="m13s1l1" n="1">
+                           <note xml:id="n1j2doxd" dur="2" pname="d" oct="4" />
+                           <rest xml:id="r1uzyg1j" dur="2" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m13s2" n="2">
+                        <layer xml:id="m13s2l1" n="1">
+                           <note xml:id="n11i9x6n" dur="2" pname="d" oct="3" />
+                           <rest xml:id="r1glqx3z" dur="2" />
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f127lj4q" startid="#n1j2doxd" />
+                     <fermata xml:id="fkf4zr1" startid="#n11i9x6n" />
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
