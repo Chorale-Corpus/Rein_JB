@@ -14,8 +14,8 @@
         "chorales"
     ],
     "upload_type": "dataset",
-    "version": "v2.1",
-    "publication_date": "2025-09-30",
+    "version": "v2.2",
+    "publication_date": "2026-08-04",
     "creators": [
         {
             "name": "Gerhardt, Kirsten",
@@ -47,7 +47,7 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/Chorale-Corpus/Rein_JB/tree/v2.1",
+            "identifier": "https://github.com/Chorale-Corpus/Rein_JB/tree/v2.2",
             "relation": "references"
         },
         {
