@@ -14,7 +14,7 @@
         "chorales"
     ],
     "upload_type": "dataset",
-    "version": "v2.2",
+    "version": "v2.3",
     "publication_date": "2026-08-04",
     "creators": [
         {
@@ -47,7 +47,7 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/Chorale-Corpus/Rein_JB/tree/v2.2",
+            "identifier": "https://github.com/Chorale-Corpus/Rein_JB/tree/v2.3",
             "relation": "references"
         },
         {
